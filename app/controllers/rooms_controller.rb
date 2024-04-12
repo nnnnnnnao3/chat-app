@@ -9,6 +9,8 @@ class RoomsController < ApplicationController
     else
       render :new, status: :unprocessable_entity
     end
+    def index
+    end
   end
   private
 
